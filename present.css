@@ -1,0 +1,32 @@
+.sidebar {
+    background-color: @sidebar_bg_color;
+    border-right: 1px solid @borders;
+}
+
+.slide-thumbnail {
+    background-color: white;
+    border: 1px solid @borders;
+    border-radius: 4px;
+}
+
+.slide-thumbnail:hover {
+    background-color: @accent_bg_color;
+    color: @accent_fg_color;
+}
+
+.slide-view {
+    background-color: white;
+    border: 1px solid @borders;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.toolbar {
+    border-bottom: 1px solid @borders;
+    padding: 5px;
+}
+
+.properties-panel {
+    background-color: @sidebar_bg_color;
+    border-left: 1px solid @borders;
+}
